@@ -36,6 +36,7 @@ public final class Check {
     private static final boolean junit = isJunit();
 
     private Check() {
+		// ok
         throw new AssertionError();
     }
 
